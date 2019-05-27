@@ -1,0 +1,47 @@
+Created directories to store the results...
+[cuGraph] BFS started...
+cit-Patents
+uk2002
+uk2005
+terminate called after throwing an instance of 'thrust::system::system_error'
+  what():  rmm_allocator::allocate(): RMM_ALLOC: unspecified launch failure
+./run_bfs_cugraph.sh: line 6: 23086 Aborted                 python cugraph_time.py /home/zronaghi/GrAPL/gunrock-psg/dataset/large/uk-2005/uk-2005.mtx --file_type mtx --algo bfs --source 21049532 > result/bfs/bfs_uk2005.txt
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ERROR: RMM runtime call  RMM_ALLOC(((void**)&srcs), (sizeof(T) * nnz), (stream))out of memory
+./run_bfs_cugraph.sh: line 14: 25188 Aborted                 python cugraph_time.py /home/zronaghi/GrAPL/gunrock-psg/dataset/twitter.mtx --file_type mtx --algo bfs --source 1037947 > result/bfs/bfs_twitter_64bit.txt
+[cuGraph] SSSP started...
+cit-Patents
+uk2002
+uk2005
+terminate called after throwing an instance of 'thrust::system::system_error'
+  what():  rmm_allocator::allocate(): RMM_ALLOC: unspecified launch failure
+./run_sssp_cugraph.sh: line 6: 27998 Aborted                 python cugraph_time.py /home/zronaghi/GrAPL/gunrock-psg/dataset/large/uk-2005/uk-2005.mtx --file_type mtx --algo sssp --source 21049532 > result/sssp/sssp_uk2005.txt
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ERROR: RMM runtime call  RMM_ALLOC(((void**)&srcs), (sizeof(T) * nnz), (stream))out of memory
+./run_sssp_cugraph.sh: line 14: 30062 Aborted                 python cugraph_time.py /home/zronaghi/GrAPL/gunrock-psg/dataset/twitter.mtx --file_type mtx --algo sssp --source 1037947 > result/sssp/sssp_twitter.txt
+[cuGraph] PageRank started...
+cit-Patents
+uk2002
+uk2005
+terminate called after throwing an instance of 'thrust::system::system_error'
+  what():  rmm_allocator::allocate(): RMM_ALLOC: unspecified launch failure
+./run_pr_cugraph.sh: line 6: 32682 Aborted                 python cugraph_time.py /home/zronaghi/GrAPL/gunrock-psg/dataset/large/uk-2005/uk-2005.mtx --file_type mtx --algo pagerank --damping_factor 0.85 --max_iter 50 --tolerence 1e-2 > result/pr/pr_uk2005.txt
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+terminate called after throwing an instance of 'thrust::system::system_error'
+  what():  reduce failed to synchronize: an illegal memory access was encountered
+./run_pr_cugraph.sh: line 12: 34514 Aborted                 python cugraph_time.py /home/zronaghi/GrAPL/gunrock-psg/dataset/large/kron_g500-logn21/kron_g500-logn21.mtx --file_type mtx --algo pagerank --damping_factor 0.85 --max_iter 50 --tolerence 1e-2 > result/pr/pr_kron_g500-logn21.txt
+twitter
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ERROR: RMM runtime call  RMM_ALLOC(((void**)&srcs), (sizeof(T) * nnz), (stream))out of memory
+./run_pr_cugraph.sh: line 14: 34746 Aborted                 python cugraph_time.py /home/zronaghi/GrAPL/gunrock-psg/dataset/twitter.mtx --file_type mtx --algo pagerank --damping_factor 0.85 --max_iter 50 --tolerence 1e-2 > result/pr/pr_twitter.txt
+[cuGraph] Done!

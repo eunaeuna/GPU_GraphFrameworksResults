@@ -1,0 +1,3 @@
+Number of devices: 4
+
+Graph File: twitter            Size: 22,884 MB   format: (Market)

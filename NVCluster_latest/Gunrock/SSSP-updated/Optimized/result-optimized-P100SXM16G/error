@@ -1,0 +1,22 @@
+sssp market ../../dataset/large/cit-Patents/cit-Patents.mtx --src=largestdegree --undirected --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/soc-LiveJournal1/soc-LiveJournal1.mtx --src=largestdegree --undirected --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/soc-twitter-2010/soc-twitter-2010.mtx --src=largestdegree --undirected --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/app/enactor_loop.cuh, 781 @ gpu 0] FullQueue_Core failed. (CUDA error 77: an illegal memory access was encountered)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/sssp/test_sssp.cu, 462 @ gpu 0] SSSP Problem Enact Failed (CUDA error 77: an illegal memory access was encountered)
+sssp market ../../dataset/large/uk-2002/uk-2002.mtx --src=largestdegree --undirected --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/uk-2005/uk-2005.mtx --src=largestdegree --undirected --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] keys cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/sssp/test_sssp.cu, 462 @ gpu 0] SSSP Problem Enact Failed (CUDA error 2: out of memory)
+sssp market ../../dataset/large/kron_g500-logn21/kron_g500-logn21.mtx --src=largestdegree --undirected --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/twitter.mtx --64bit-SizeT --src=largestdegree --undirected --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] weights cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/sssp/test_sssp.cu, 379 @ gpu 0] SSSP Problem Init failed (CUDA error 2: out of memory)
+sssp market ../../dataset/large/cit-Patents/cit-Patents.mtx --src=largestdegree --directed --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/soc-LiveJournal1/soc-LiveJournal1.mtx --src=largestdegree --directed --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/soc-twitter-2010/soc-twitter-2010.mtx --src=largestdegree --directed --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/uk-2002/uk-2002.mtx --src=largestdegree --directed --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/uk-2005/uk-2005.mtx --src=largestdegree --directed --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/kron_g500-logn21/kron_g500-logn21.mtx --src=largestdegree --directed --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/twitter.mtx --64bit-SizeT --src=largestdegree --directed --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] keys cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/sssp/test_sssp.cu, 462 @ gpu 0] SSSP Problem Enact Failed (CUDA error 2: out of memory)

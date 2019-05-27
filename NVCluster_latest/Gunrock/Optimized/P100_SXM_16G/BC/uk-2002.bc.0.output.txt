@@ -1,0 +1,81 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (2s).
+
+Degree Histogram (18520486 vertices, 523574516 edges):
+    Degree   0: 37300 (0.20%)
+    Degree 2^0: 2322187 (12.54%)
+    Degree 2^1: 2717598 (14.67%)
+    Degree 2^2: 2465118 (13.31%)
+    Degree 2^3: 3537312 (19.10%)
+    Degree 2^4: 4000856 (21.60%)
+    Degree 2^5: 2303781 (12.44%)
+    Degree 2^6: 732939 (3.96%)
+    Degree 2^7: 201555 (1.09%)
+    Degree 2^8: 94231 (0.51%)
+    Degree 2^9: 49395 (0.27%)
+    Degree 2^10: 53065 (0.29%)
+    Degree 2^11: 4058 (0.02%)
+    Degree 2^12: 735 (0.00%)
+    Degree 2^13: 257 (0.00%)
+    Degree 2^14: 88 (0.00%)
+    Degree 2^15: 7 (0.00%)
+    Degree 2^16: 3 (0.00%)
+    Degree 2^17: 1 (0.00%)
+
+Using highest degree (194955), vertex: 17159799
+Source vertex: 17159799
+Using 1 GPU(s): [ 0 ].
+Using traversal-mode LB_CULL
+__________________________
+--------------------------
+iteration 0 elapsed: 72.037935 ms, src = 17159799
+__________________________
+--------------------------
+iteration 1 elapsed: 71.767092 ms, src = 17159799
+__________________________
+--------------------------
+iteration 2 elapsed: 71.913004 ms, src = 17159799
+__________________________
+--------------------------
+iteration 3 elapsed: 71.807861 ms, src = 17159799
+__________________________
+--------------------------
+iteration 4 elapsed: 72.099924 ms, src = 17159799
+__________________________
+--------------------------
+iteration 5 elapsed: 71.925879 ms, src = 17159799
+__________________________
+--------------------------
+iteration 6 elapsed: 72.469950 ms, src = 17159799
+__________________________
+--------------------------
+iteration 7 elapsed: 71.830034 ms, src = 17159799
+__________________________
+--------------------------
+iteration 8 elapsed: 71.853876 ms, src = 17159799
+__________________________
+--------------------------
+iteration 9 elapsed: 71.828127 ms, src = 17159799
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 3152019456	 22224585	 22224585
+	 queue_sizing =	 1.200000 	 1.200000
+
+ [BC] finished.
+ avg. elapsed: 71.9534 ms
+ iterations: 0
+ min. elapsed: 71.7671 ms
+ max. elapsed: 72.4699 ms
+ rate: 14540.3457 MiEdges/s
+ src: 17159799
+ nodes_visited: 18459128
+ edges_visited: 1046226884
+ nodes queued: 36918255
+ edges queued: 523113442
+ nodes redundance: 100.00%
+ load time: 5590.3871 ms
+ preprocess time: 305.4199 ms
+ postprocess time: 212.8959 ms
+ total time: 6858.3589 ms
+

@@ -1,0 +1,31 @@
+sssp market ../../dataset/large/cit-Patents/cit-Patents.mtx --src=0 --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/soc-LiveJournal1/soc-LiveJournal1.mtx --src=0 --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/soc-twitter-2010/soc-twitter-2010.mtx --src=0 --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/uk-2002/uk-2002.mtx --src=0 --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/uk-2005/uk-2005.mtx --src=0 --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/kron_g500-logn21/kron_g500-logn21.mtx --src=0 --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/twitter.mtx --64bit-SizeT --src=0 --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/cit-Patents/cit-Patents.mtx --src=largestdegree --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/soc-LiveJournal1/soc-LiveJournal1.mtx --src=largestdegree --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/soc-twitter-2010/soc-twitter-2010.mtx --src=largestdegree --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/uk-2002/uk-2002.mtx --src=largestdegree --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/uk-2005/uk-2005.mtx --src=largestdegree --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/large/kron_g500-logn21/kron_g500-logn21.mtx --src=largestdegree --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+sssp market ../../dataset/twitter.mtx --64bit-SizeT --src=largestdegree --iteration-num=10 --queue-sizing=1 --in-sizing=1 --traversal-mode=LB --quick --device=0 --jsondir=./evalsssp/
+pr market ../../dataset/large/cit-Patents/cit-Patents.mtx --iteration-num=10 --undirected --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/large/soc-LiveJournal1/soc-LiveJournal1.mtx --iteration-num=10 --undirected --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/large/soc-twitter-2010/soc-twitter-2010.mtx --iteration-num=10 --undirected --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/app/enactor_loop.cuh, 781 @ gpu 2] FullQueue_Core failed. (CUDA error 77: an illegal memory access was encountered)
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/app/pr/pr_enactor.cuh, 1474 @ gpu 2] cudaStreamSynchronize failed (CUDA error 77: an illegal memory access was encountered)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/pr/test_pr.cu, 688 @ gpu 2] PR Enactor Reset Reset failed (CUDA error 77: an illegal memory access was encountered)
+pr market ../../dataset/large/uk-2002/uk-2002.mtx --iteration-num=10 --undirected --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/large/uk-2005/uk-2005.mtx --iteration-num=10 --undirected --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/large/kron_g500-logn21/kron_g500-logn21.mtx --iteration-num=10 --undirected --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/twitter.mtx --64bit-SizeT --iteration-num=10 --undirected --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/large/cit-Patents/cit-Patents.mtx --iteration-num=10 --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/large/soc-LiveJournal1/soc-LiveJournal1.mtx --iteration-num=10 --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/large/soc-twitter-2010/soc-twitter-2010.mtx --iteration-num=10 --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/large/uk-2002/uk-2002.mtx --iteration-num=10 --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/large/uk-2005/uk-2005.mtx --iteration-num=10 --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/large/kron_g500-logn21/kron_g500-logn21.mtx --iteration-num=10 --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/
+pr market ../../dataset/twitter.mtx --64bit-SizeT --iteration-num=10 --normalized --quick --traversal-mode=LB --device=2 --jsondir=./evalpr/

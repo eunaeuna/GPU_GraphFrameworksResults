@@ -1,0 +1,54 @@
+Created directories to store the results...
+[Hornet] BFS started...
+cit-Patents
+uk2002
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+[Hornet] BFS --undirected started...
+cit-Patents
+uk2002
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+[Hornet] SSSP started...
+cit-Patents
+uk2002
+soc_twitter-2010
+soc_LiveJournal1
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(79) [ [96mapply[39m ] : cudaMemcpy(ToHost) -> invalid argument(11)
+
+kron_g500-logn21
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(87) [ [96mapply[39m ] :  -> an illegal memory access was encountered(77)
+
+[Hornet] SSSP --src=largestdegree started...
+cit-Patents
+uk2002
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(73) [ [96mapply[39m ] :  -> an illegal memory access was encountered(77)
+
+soc_twitter-2010
+soc_LiveJournal1
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(87) [ [96mapply[39m ] :  -> an illegal memory access was encountered(77)
+
+kron_g500-logn21
+[Hornet] Trangle Counting2 started...
+cit-Patents
+uk2002
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+[Hornet] PageRank started...
+cit-Patents
+uk2002
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+[Hornet] Done!

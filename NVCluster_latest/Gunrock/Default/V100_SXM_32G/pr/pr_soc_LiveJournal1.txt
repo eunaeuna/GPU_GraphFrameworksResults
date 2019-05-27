@@ -1,0 +1,75 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (0s).
+
+Degree Histogram (4847571 vertices, 85702474 edges):
+    Degree   0: 962 (0.02%)
+    Degree 2^0: 1057993 (21.83%)
+    Degree 2^1: 919014 (18.96%)
+    Degree 2^2: 833607 (17.20%)
+    Degree 2^3: 742607 (15.32%)
+    Degree 2^4: 616847 (12.72%)
+    Degree 2^5: 404231 (8.34%)
+    Degree 2^6: 184810 (3.81%)
+    Degree 2^7: 62310 (1.29%)
+    Degree 2^8: 19429 (0.40%)
+    Degree 2^9: 4855 (0.10%)
+    Degree 2^10: 704 (0.01%)
+    Degree 2^11: 161 (0.00%)
+    Degree 2^12: 29 (0.00%)
+    Degree 2^13: 11 (0.00%)
+    Degree 2^14: 1 (0.00%)
+
+Using 1 GPU: [ 0 ].
+Using traversal mode LB
+-1	 -1	 -1	 scanned_edges 	 oversize :	 2 ->	 4847573
+__________________________
+--------------------------
+iteration 0 elapsed: 251.904964 ms
+Total rank : 4765997.8832325637
+Computing reference value ...
+CPU PageRank finished in 680547.562500 msec.
+
+Validity Rank: 
+INCORRECT : rank[10009] (7.71783752e+02) != 7.83361084e+02
+number of errors : 2609075
+Reference total rank : 4845319.8761386424
+Maximum difference : rank[8737] 6.82805176e+02 vs. 6.97301331e+02, 1.44961548e+01
+Maximum relative difference :rank[1439348] 2.68825722e+00 vs. 2.83516026e+00, 5.18147200 %
+Validity Order: 
+CORRECT
+
+Top 10 Ranked Vertices and PageRanks:
+Vertex ID: 10009, PageRank: 7.71783752e+02
+Vertex ID: 8737, PageRank: 6.82805176e+02
+Vertex ID: 2914, PageRank: 6.72639343e+02
+Vertex ID: 18964, PageRank: 5.39617065e+02
+Vertex ID: 87, PageRank: 4.52907867e+02
+Vertex ID: 37356, PageRank: 3.64238342e+02
+Vertex ID: 10029, PageRank: 3.61239105e+02
+Vertex ID: 39295, PageRank: 3.42732269e+02
+Vertex ID: 1220, PageRank: 3.32510101e+02
+Vertex ID: 2409, PageRank: 3.17057617e+02
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 513802240	 2	 2
+	 queue_sizing =	 0.000000 	 0.000000
+
+ [PageRank] finished.
+ avg. elapsed: 251.9050 ms
+ iterations: 24
+ min. elapsed: 251.9050 ms
+ max. elapsed: 251.9050 ms
+ rate: 340.2175 MiEdges/s
+ src: 0
+ nodes_visited: 4847571
+ edges_visited: 85702474
+ nodes queued: 111494133
+ edges queued: 2056859376
+ nodes redundance: 2200.00%
+ edges redundance: 2300.00%
+ load time: 6972.8489 ms
+ preprocess time: 93.5879 ms
+ postprocess time: 775477.8960 ms
+ total time: 782799.5489 ms
+

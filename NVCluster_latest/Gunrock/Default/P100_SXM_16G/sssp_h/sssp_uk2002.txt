@@ -1,0 +1,63 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (11s).
+
+Degree Histogram (18520486 vertices, 292243663 edges):
+    Degree   0: 2965567 (16.01%)
+    Degree 2^0: 1736651 (9.38%)
+    Degree 2^1: 1749538 (9.45%)
+    Degree 2^2: 2159488 (11.66%)
+    Degree 2^3: 3502150 (18.91%)
+    Degree 2^4: 3819998 (20.63%)
+    Degree 2^5: 2018547 (10.90%)
+    Degree 2^6: 475040 (2.56%)
+    Degree 2^7: 69966 (0.38%)
+    Degree 2^8: 17928 (0.10%)
+    Degree 2^9: 4757 (0.03%)
+    Degree 2^10: 847 (0.00%)
+    Degree 2^11: 9 (0.00%)
+
+Using highest degree (2449), vertex: 15353974
+Source vertex: 15353974
+Using 1 GPU: [ 0 ].
+Using traversal mode LB
+__________________________
+0	 7	 0	 queue3 	 oversize :	 22224585 ->	 33083644
+0	 8	 0	 queue3 	 oversize :	 33083644 ->	 68943150
+0	 9	 0	 queue3 	 oversize :	 68943150 ->	 103817110
+0	 10	 0	 queue3 	 oversize :	 103817110 ->	 123921829
+0	 11	 0	 queue3 	 oversize :	 123921829 ->	 129880646
+0	 12	 0	 queue3 	 oversize :	 129880646 ->	 130106759
+--------------------------
+iteration 0 elapsed: 241.794109 ms, src = 15353974, #iteration = 105
+Computing reference value ...
+CPU SSSP finished in 152019.984375 msec.
+
+
+First 40 labels of the GPU result.
+[0:147 1:178 2:115 3:118 4:162 5:155 6:204 7:164 8:130 9:128 10:117 11:121 12:121 13:125 14:135 15:118 16:119 17:136 18:125 19:128 20:149 21:123 22:122 23:122 24:123 25:162 26:163 27:137 28:159 29:162 30:158 31:147 32:127 33:164 34:104 35:138 36:122 37:131 38:101 39:116 ]
+Label Validity: 
+CORRECT
+First 40 labels of the reference CPU result.
+[0:147 1:178 2:115 3:118 4:162 5:155 6:204 7:164 8:130 9:128 10:117 11:121 12:121 13:125 14:135 15:118 16:119 17:136 18:125 19:128 20:149 21:123 22:122 23:122 24:123 25:162 26:163 27:137 28:159 29:162 30:158 31:147 32:127 33:164 34:104 35:138 36:122 37:131 38:101 39:116 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 3332374528	 22224585	 130106759
+	 queue_sizing =	 1.200000 	 7.025019
+
+ [SSSP] finished.
+ avg. elapsed: 241.7941 ms
+ iterations: 105
+ min. elapsed: 241.7941 ms
+ max. elapsed: 241.7941 ms
+ rate: 1175.2053 MiEdges/s
+ src: 15353974
+ nodes_visited: 17994090
+ edges_visited: 284157721
+ nodes queued: 119878245
+ nodes redundance: 566.21%
+ load time: 17473.7930 ms
+ preprocess time: 901.9239 ms
+ postprocess time: 1374.6769 ms
+ total time: 387286.4461 ms
+

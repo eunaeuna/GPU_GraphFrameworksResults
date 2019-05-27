@@ -1,0 +1,69 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (27s).
+
+Degree Histogram (41652230 vertices, 1468364884 edges):
+    Degree   0: 1548952 (3.72%)
+    Degree 2^0: 2814501 (6.76%)
+    Degree 2^1: 6530924 (15.68%)
+    Degree 2^2: 11508312 (27.63%)
+    Degree 2^3: 9790166 (23.50%)
+    Degree 2^4: 5276621 (12.67%)
+    Degree 2^5: 2129028 (5.11%)
+    Degree 2^6: 995308 (2.39%)
+    Degree 2^7: 496696 (1.19%)
+    Degree 2^8: 266821 (0.64%)
+    Degree 2^9: 152689 (0.37%)
+    Degree 2^10: 86907 (0.21%)
+    Degree 2^11: 32982 (0.08%)
+    Degree 2^12: 13678 (0.03%)
+    Degree 2^13: 5231 (0.01%)
+    Degree 2^14: 2111 (0.01%)
+    Degree 2^15: 678 (0.00%)
+    Degree 2^16: 263 (0.00%)
+    Degree 2^17: 81 (0.00%)
+    Degree 2^18: 68 (0.00%)
+    Degree 2^19: 153 (0.00%)
+    Degree 2^20: 56 (0.00%)
+    Degree 2^21: 4 (0.00%)
+
+  Converting 41652230 vertices, 1468364884 directed edges (unordered tuples) to CSR format...
+Done converting (36s).
+Using highest degree (2997469), vertex: 1037947
+Source vertex: 1037947
+Using 1 GPU: [ 0 ].
+Using traversal-mode LB
+__________________________
+0	 1	 0	 queue3 	 oversize :	 270739497 ->	 283355575
+0	 2	 0	 queue3 	 oversize :	 283355575 ->	 1019919949
+--------------------------
+iteration 0 elapsed: 509.160995 ms, src = 1037947, #iteration = 13
+Computing reference value ...
+CPU BFS finished in 28743.617188 msec. cpu_search_depth: 13
+
+Label Validity: 
+CORRECT
+
+First 40 labels of the GPU result:
+[0:2 1:1 2:2 3:2 4:2 5:2 6:2 7:1 8:1 9:2 10:2 11:2 12:2 13:2 14:2 15:2 16:1 17:1 18:1 19:2 20:2 21:2 22:2 23:2 24:2 25:2 26:2 27:3 28:2 29:2 30:1 31:1 32:2 33:2 34:3 35:1 36:2 37:1 38:2 39:2 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 20919091200	 270739497	 1019919949
+	 queue_sizing =	 6.500000 	 24.486563
+
+ [BFS] finished.
+ avg. elapsed: 509.1610 ms
+ iterations: 13
+ min. elapsed: 509.1610 ms
+ max. elapsed: 509.1610 ms
+ rate: 2780.6514 MiEdges/s
+ src: 1037947
+ nodes_visited: 35016137
+ edges_visited: 1415799261
+ nodes queued: 35016137
+ edges queued: 1415799261
+ load time: 102649.1041 ms
+ preprocess time: 1708.3371 ms
+ postprocess time: 432.4009 ms
+ total time: 134147.0921 ms
+

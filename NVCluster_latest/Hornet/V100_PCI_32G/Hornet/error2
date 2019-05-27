@@ -1,0 +1,52 @@
+Created directories to store the results...
+[Hornet] BFS started...
+uk2005
+twitter
+[Hornet] BFS --undirected started...
+uk2005
+twitter
+[31m
+HOST error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../xlib/include/Host/impl/Numeric.i.hpp[0m(84) [ [96mcheck_overflow[39m ]
+
+value overflow
+
+[Hornet] SSSP started...
+uk2005
+twitter
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(87) [ [96mapply[39m ] :  -> invalid configuration argument(9)
+
+[Hornet] SSSP --src=largestdegree started...
+uk2005
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(87) [ [96mapply[39m ] :  -> invalid configuration argument(9)
+
+twitter
+[31m
+HOST error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../xlib/include/Host/impl/Numeric.i.hpp[0m(84) [ [96mcheck_overflow[39m ]
+
+value overflow
+
+[Hornet] Trangle Counting2 started...
+uk2005
+twitter
+[31m
+HOST error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../xlib/include/Host/impl/Numeric.i.hpp[0m(84) [ [96mcheck_overflow[39m ]
+
+value overflow
+
+[Hornet] PageRank started...
+uk2005
+twitter
+[31m
+HOST error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../xlib/include/Host/impl/Numeric.i.hpp[0m(84) [ [96mcheck_overflow[39m ]
+
+value overflow
+
+[Hornet] Done!

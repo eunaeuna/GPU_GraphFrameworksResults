@@ -1,0 +1,49 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (2s).
+
+Degree Histogram (4847571 vertices, 68475391 edges):
+    Degree   0: 553239 (11.41%)
+    Degree 2^0: 941799 (19.43%)
+    Degree 2^1: 797094 (16.44%)
+    Degree 2^2: 749096 (15.45%)
+    Degree 2^3: 680822 (14.04%)
+    Degree 2^4: 565267 (11.66%)
+    Degree 2^5: 354208 (7.31%)
+    Degree 2^6: 146734 (3.03%)
+    Degree 2^7: 45005 (0.93%)
+    Degree 2^8: 11773 (0.24%)
+    Degree 2^9: 2474 (0.05%)
+    Degree 2^10: 44 (0.00%)
+    Degree 2^11: 7 (0.00%)
+    Degree 2^12: 5 (0.00%)
+    Degree 2^13: 3 (0.00%)
+    Degree 2^14: 1 (0.00%)
+
+Using 1 GPU(s): [ 2 ].
+Using traversal mode LB
+-1	 -1	 -1	 scanned_edges 	 oversize :	 2 ->	 4847573
+__________________________
+--------------------------
+iteration 0 elapsed: 287.827015 ms
+__________________________
+--------------------------
+iteration 1 elapsed: 288.259029 ms
+__________________________
+--------------------------
+iteration 2 elapsed: 287.825823 ms
+__________________________
+--------------------------
+iteration 3 elapsed: 288.777828 ms
+__________________________
+--------------------------
+iteration 4 elapsed: 288.397074 ms
+
+ [PageRank] finished.
+ avg. elapsed: 0.0000 ms
+ iterations: 0
+ load time: 7962.1239 ms
+ preprocess time: 71.4371 ms
+ postprocess time: 0.0000 ms
+ total time: 9759.2671 ms
+

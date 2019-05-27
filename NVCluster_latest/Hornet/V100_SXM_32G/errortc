@@ -1,0 +1,41 @@
+Created directories to store the results...
+[Hornet] TC started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+[31m
+HOST error
+[39m[4m/home/nfs/zronaghi/GrAPL/hornet/hornetsnest/../hornet/include/Core/GPUHornet/impl/Hornet1.i.cuh[0m(115) [ [96minitialize[39m ]
+
+degree >= EDGES_PER_BLOCKARRAY, (77798518)
+
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[31m
+HOST error
+[39m[4m/home/nfs/zronaghi/GrAPL/hornet/hornetsnest/../xlib/include/Host/impl/Numeric.i.hpp[0m(84) [ [96mcheck_overflow[39m ]
+
+value overflow
+
+[Hornet] TC --undirected started...
+cit-Patents
+uk2005
+soc_twitter-2010
+[31m
+HOST error
+[39m[4m/home/nfs/zronaghi/GrAPL/hornet/hornetsnest/../hornet/include/Core/GPUHornet/impl/Hornet1.i.cuh[0m(115) [ [96minitialize[39m ]
+
+degree >= EDGES_PER_BLOCKARRAY, (77798518)
+
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[31m
+HOST error
+[39m[4m/home/nfs/zronaghi/GrAPL/hornet/hornetsnest/../xlib/include/Host/impl/Numeric.i.hpp[0m(84) [ [96mcheck_overflow[39m ]
+
+value overflow
+
+[Hornet] Done!

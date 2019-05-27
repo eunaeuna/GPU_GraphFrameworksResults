@@ -1,0 +1,63 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (0s).
+
+Degree Histogram (4847571 vertices, 68475391 edges):
+    Degree   0: 553239 (11.41%)
+    Degree 2^0: 941799 (19.43%)
+    Degree 2^1: 797094 (16.44%)
+    Degree 2^2: 749096 (15.45%)
+    Degree 2^3: 680822 (14.04%)
+    Degree 2^4: 565267 (11.66%)
+    Degree 2^5: 354208 (7.31%)
+    Degree 2^6: 146734 (3.03%)
+    Degree 2^7: 45005 (0.93%)
+    Degree 2^8: 11773 (0.24%)
+    Degree 2^9: 2474 (0.05%)
+    Degree 2^10: 44 (0.00%)
+    Degree 2^11: 7 (0.00%)
+    Degree 2^12: 5 (0.00%)
+    Degree 2^13: 3 (0.00%)
+    Degree 2^14: 1 (0.00%)
+
+Using highest degree (20292), vertex: 10009
+Source vertex: 10009
+Using 1 GPU: [ 0 ].
+Using traversal-mode LB
+__________________________
+0	 2	 0	 queue3 	 oversize :	 5817087 ->	 11331200
+0	 3	 0	 queue3 	 oversize :	 11331200 ->	 18278312
+0	 4	 0	 queue3 	 oversize :	 18278312 ->	 28610982
+--------------------------
+iteration 0 elapsed: 33.489227 ms, src = 10009
+Computing reference value ...
+CPU BC finished in 2756.990967 msec. Search depth: 14
+
+Validity BC Value: 
+CORRECT
+Validity Sigma: 
+CORRECT
+Validity labels: 
+CORRECT
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 610271232	 28610982	 5817087
+	 queue_sizing =	 5.902127 	 1.200000
+
+ [BC] finished.
+ avg. elapsed: 33.4892 ms
+ iterations: 0
+ min. elapsed: 33.4892 ms
+ max. elapsed: 33.4892 ms
+ rate: 4041.9521 MiEdges/s
+ src: 10009
+ nodes_visited: 4400347
+ edges_visited: 135361852
+ nodes queued: 8800693
+ edges queued: 67680926
+ nodes redundance: 100.00%
+ load time: 4506.2292 ms
+ preprocess time: 76.4611 ms
+ postprocess time: 150.4598 ms
+ total time: 7550.2160 ms
+

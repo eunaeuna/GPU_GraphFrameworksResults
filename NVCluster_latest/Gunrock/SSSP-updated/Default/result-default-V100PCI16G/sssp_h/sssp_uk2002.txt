@@ -1,0 +1,69 @@
+Loading Matrix-market coordinate-formatted graph ...
+Reading from /home/zronaghi/GrAPL/gunrock-psg/dataset/large/uk-2002/uk-2002.mtx:
+  Parsing MARKET COO format (18520486 nodes, 596227524 directed edges)... Done parsing (95s).
+  Converting 18520486 vertices, 596227524 directed edges (unordered tuples) to CSR format...
+Done converting (14s).
+
+Degree Histogram (18520486 vertices, 523574516 edges):
+    Degree   0: 37300 (0.20%)
+    Degree 2^0: 2322187 (12.54%)
+    Degree 2^1: 2717598 (14.67%)
+    Degree 2^2: 2465118 (13.31%)
+    Degree 2^3: 3537312 (19.10%)
+    Degree 2^4: 4000856 (21.60%)
+    Degree 2^5: 2303781 (12.44%)
+    Degree 2^6: 732939 (3.96%)
+    Degree 2^7: 201555 (1.09%)
+    Degree 2^8: 94231 (0.51%)
+    Degree 2^9: 49395 (0.27%)
+    Degree 2^10: 53065 (0.29%)
+    Degree 2^11: 4058 (0.02%)
+    Degree 2^12: 735 (0.00%)
+    Degree 2^13: 257 (0.00%)
+    Degree 2^14: 88 (0.00%)
+    Degree 2^15: 7 (0.00%)
+    Degree 2^16: 3 (0.00%)
+    Degree 2^17: 1 (0.00%)
+
+Using highest degree (194955), vertex: 17159799
+Source vertex: 17159799
+Using 1 GPU: [ 0 ].
+Using traversal mode LB
+__________________________
+0	 2	 0	 queue3 	 oversize :	 22224585 ->	 22597272
+0	 3	 0	 queue3 	 oversize :	 22597272 ->	 73125970
+0	 4	 0	 queue3 	 oversize :	 73125970 ->	 290693338
+0	 5	 0	 queue3 	 oversize :	 290693338 ->	 412888587
+--------------------------
+iteration 0 elapsed: 167.021990 ms, src = 17159799, #iteration = 84
+Computing reference value ...
+CPU SSSP finished in 240005.062500 msec.
+
+
+First 40 labels of the GPU result.
+[0:38 1:28 2:25 3:35 4:45 5:41 6:33 7:46 8:40 9:36 10:41 11:27 12:39 13:62 14:38 15:35 16:35 17:40 18:45 19:50 20:43 21:50 22:37 23:47 24:38 25:30 26:27 27:35 28:35 29:30 30:28 31:48 32:72 33:49 34:48 35:52 36:59 37:98 38:14 39:8 ]
+Label Validity: 
+CORRECT
+First 40 labels of the reference CPU result.
+[0:38 1:28 2:25 3:35 4:45 5:41 6:33 7:46 8:40 9:36 10:41 11:27 12:39 13:62 14:38 15:35 16:35 17:40 18:45 19:50 20:43 21:50 22:37 23:47 24:38 25:30 26:27 27:35 28:35 29:30 30:28 31:48 32:72 33:49 34:48 35:52 36:59 37:98 38:14 39:8 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 6312427520	 22224585	 412888587
+	 queue_sizing =	 1.200000 	 22.293615
+
+ [SSSP] finished.
+ avg. elapsed: 167.0220 ms
+ iterations: 84
+ min. elapsed: 167.0220 ms
+ max. elapsed: 167.0220 ms
+ rate: 3132.0034 MiEdges/s
+ src: 17159799
+ nodes_visited: 18459128
+ edges_visited: 523113442
+ nodes queued: 85888242
+ nodes redundance: 365.29%
+ load time: 133757.2761 ms
+ preprocess time: 1851.6860 ms
+ postprocess time: 238.3740 ms
+ total time: 753530.6668 ms
+

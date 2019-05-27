@@ -1,0 +1,48 @@
+Loading Matrix-market coordinate-formatted graph ...
+Reading from ../../dataset/large/uk-2005/uk-2005.mtx:
+  Parsing MARKET COO format (39459925 nodes, 1872728564 directed edges)... Done parsing (301s).
+  Converting 39459925 vertices, 1872728564 directed edges (unordered tuples) to CSR format...
+Done converting (57s).
+
+Degree Histogram (39459925 vertices, 1566054250 edges):
+    Degree   0: 5462 (0.01%)
+    Degree 2^0: 3983897 (10.10%)
+    Degree 2^1: 4287466 (10.87%)
+    Degree 2^2: 4351141 (11.03%)
+    Degree 2^3: 7222466 (18.30%)
+    Degree 2^4: 8067255 (20.44%)
+    Degree 2^5: 7156175 (18.14%)
+    Degree 2^6: 2236189 (5.67%)
+    Degree 2^7: 1145314 (2.90%)
+    Degree 2^8: 922093 (2.34%)
+    Degree 2^9: 64642 (0.16%)
+    Degree 2^10: 9158 (0.02%)
+    Degree 2^11: 4846 (0.01%)
+    Degree 2^12: 2189 (0.01%)
+    Degree 2^13: 1041 (0.00%)
+    Degree 2^14: 237 (0.00%)
+    Degree 2^15: 105 (0.00%)
+    Degree 2^16: 93 (0.00%)
+    Degree 2^17: 123 (0.00%)
+    Degree 2^18: 0 (0.00%)
+    Degree 2^19: 0 (0.00%)
+    Degree 2^20: 33 (0.00%)
+
+Using highest degree (1776858), vertex: 34054380
+Source vertex: 34054380
+Using 1 GPU(s): [ 0 ].
+Using traversal mode LB
+__________________________
+0	 1	 0	 queue3 	 oversize :	 47351912 ->	 163740602
+0	 4	 0	 queue3 	 oversize :	 163740602 ->	 202334886
+0	 5	 0	 queue3 	 oversize :	 202334886 ->	 721951400
+0	 6	 0	 queue3 	 oversize :	 721951400 ->	 1117023904
+
+ [SSSP] finished.
+ avg. elapsed: 0.0000 ms
+ iterations: 0
+ load time: 426039.2931 ms
+ preprocess time: 6591.3961 ms
+ postprocess time: 0.0000 ms
+ total time: 432921.1791 ms
+

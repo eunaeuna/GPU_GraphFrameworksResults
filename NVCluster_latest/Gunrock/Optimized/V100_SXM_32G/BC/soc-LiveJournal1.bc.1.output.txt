@@ -1,0 +1,78 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (2s).
+
+Degree Histogram (4847571 vertices, 68475391 edges):
+    Degree   0: 553239 (11.41%)
+    Degree 2^0: 941799 (19.43%)
+    Degree 2^1: 797094 (16.44%)
+    Degree 2^2: 749096 (15.45%)
+    Degree 2^3: 680822 (14.04%)
+    Degree 2^4: 565267 (11.66%)
+    Degree 2^5: 354208 (7.31%)
+    Degree 2^6: 146734 (3.03%)
+    Degree 2^7: 45005 (0.93%)
+    Degree 2^8: 11773 (0.24%)
+    Degree 2^9: 2474 (0.05%)
+    Degree 2^10: 44 (0.00%)
+    Degree 2^11: 7 (0.00%)
+    Degree 2^12: 5 (0.00%)
+    Degree 2^13: 3 (0.00%)
+    Degree 2^14: 1 (0.00%)
+
+Using highest degree (20292), vertex: 10009
+Source vertex: 10009
+Using 1 GPU(s): [ 0 ].
+Using traversal-mode LB_CULL
+__________________________
+--------------------------
+iteration 0 elapsed: 26.130915 ms, src = 10009
+__________________________
+--------------------------
+iteration 1 elapsed: 25.823116 ms, src = 10009
+__________________________
+--------------------------
+iteration 2 elapsed: 25.779009 ms, src = 10009
+__________________________
+--------------------------
+iteration 3 elapsed: 25.744915 ms, src = 10009
+__________________________
+--------------------------
+iteration 4 elapsed: 25.836945 ms, src = 10009
+__________________________
+--------------------------
+iteration 5 elapsed: 25.815010 ms, src = 10009
+__________________________
+--------------------------
+iteration 6 elapsed: 25.766850 ms, src = 10009
+__________________________
+--------------------------
+iteration 7 elapsed: 25.784969 ms, src = 10009
+__________________________
+--------------------------
+iteration 8 elapsed: 25.707006 ms, src = 10009
+__________________________
+--------------------------
+iteration 9 elapsed: 25.723934 ms, src = 10009
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 570425344	 5817087	 5817087
+	 queue_sizing =	 1.200000 	 1.200000
+
+ [BC] finished.
+ avg. elapsed: 25.8113 ms
+ iterations: 0
+ min. elapsed: 25.7070 ms
+ max. elapsed: 26.1309 ms
+ rate: 5244.2930 MiEdges/s
+ src: 10009
+ nodes_visited: 4400347
+ edges_visited: 135361852
+ nodes queued: 8800693
+ edges queued: 67680926
+ nodes redundance: 100.00%
+ load time: 6442.9369 ms
+ preprocess time: 44.9750 ms
+ postprocess time: 60.3240 ms
+ total time: 6826.5150 ms
+

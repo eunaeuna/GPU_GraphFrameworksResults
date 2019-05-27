@@ -1,0 +1,35 @@
+Number of devices: 8
+
+Graph File: uk-2002            Size: 4,809 MB    format: (Market)
+
+@File    V: 18,520,486    E: 298,113,762   Structure: Directed     avg. deg: 16.1
+@User    V: 18,520,486    E: 596,227,524   Structure: Undirected   avg. deg: 32.1
+
+     0%     1%     2%     3%     4%     5%     6%     7%     8%     9%    10%    11%    12%    13%    14%    15%    16%    17%    18%    19%    20%    21%    22%    23%    24%    25%    26%    27%    28%    29%    30%    31%    32%    33%    34%    35%    36%    37%    38%    39%    40%    41%    42%    43%    44%    45%    46%    47%    48%    49%    50%    51%    52%    53%    54%    55%    56%    57%    58%    59%    60%    61%    62%    63%    64%    65%    66%    67%    68%    69%    70%    71%    72%    73%    74%    75%    76%    77%    78%    79%    80%    81%    82%    83%    84%    85%    86%    87%    88%    89%    90%    91%    92%    93%    94%    95%    96%    97%    98%    99%   100%
+Double self-loops removed.  E: 590,357,425
+Directed to Undirected: Removing duplicated edges...(60,912,810 edges removed)
+COO to CSR...	Creating degree-directed graph ...
+Complete!
+
+[39mInitilization Time:  1578.7 ms[39m
+[39mqueueing and binning:  207.95923 ms[39m
+threads_per=1, size=28666096
+[39mbalanced queue processing:  5.67386 ms[39m
+threads_per=2, size=34296534
+[39mbalanced queue processing:  9.30160 ms[39m
+threads_per=4, size=76794305
+[39mbalanced queue processing:  33.34099 ms[39m
+threads_per=8, size=67374324
+[39mbalanced queue processing:  67.86429 ms[39m
+threads_per=16, size=27476587
+[39mbalanced queue processing:  77.25834 ms[39m
+threads_per=32, size=7560316
+[39mbalanced queue processing:  62.54611 ms[39m
+threads_per=64, size=2083877
+[39mbalanced queue processing:  40.75539 ms[39m
+threads_per=128, size=592707
+[39mbalanced queue processing:  27.47261 ms[39m
+threads_per=1, size=16942512
+[39mimbalanced queue processing:  1.79085 ms[39m
+[39mComputation time:  536.71399 ms[39m
+Device triangles: 4451687605

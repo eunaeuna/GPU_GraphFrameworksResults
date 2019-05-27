@@ -1,0 +1,82 @@
+Loading Matrix-market coordinate-formatted graph ...
+Reading from ../../dataset/large/cit-Patents/cit-Patents.mtx:
+  Parsing MARKET COO format (3774768 nodes, 33037896 directed edges)... Done parsing (5s).
+  Converting 3774768 vertices, 33037896 directed edges (unordered tuples) to CSR format...
+Done converting (1s).
+
+Degree Histogram (3774768 vertices, 33037894 edges):
+    Degree   0: 0 (0.00%)
+    Degree 2^0: 667336 (17.68%)
+    Degree 2^1: 683661 (18.11%)
+    Degree 2^2: 861431 (22.82%)
+    Degree 2^3: 968664 (25.66%)
+    Degree 2^4: 480472 (12.73%)
+    Degree 2^5: 98233 (2.60%)
+    Degree 2^6: 13292 (0.35%)
+    Degree 2^7: 1507 (0.04%)
+    Degree 2^8: 144 (0.00%)
+    Degree 2^9: 28 (0.00%)
+
+Using highest degree (793), vertex: 2514765
+Source vertex: 2514765
+Using 1 GPU(s): [ 0 ].
+Using traversal mode LB
+__________________________
+0	 4	 0	 queue3 	 oversize :	 4529723 ->	 5025700
+0	 5	 0	 queue3 	 oversize :	 5025700 ->	 16841796
+0	 6	 0	 queue3 	 oversize :	 16841796 ->	 26707344
+--------------------------
+iteration 0 elapsed: 107.414007 ms, src = 2514765, #iteration = 67
+__________________________
+--------------------------
+iteration 1 elapsed: 102.375984 ms, src = 2514765, #iteration = 68
+__________________________
+--------------------------
+iteration 2 elapsed: 101.958990 ms, src = 2514765, #iteration = 67
+__________________________
+--------------------------
+iteration 3 elapsed: 101.310015 ms, src = 2514765, #iteration = 67
+__________________________
+--------------------------
+iteration 4 elapsed: 99.839926 ms, src = 2514765, #iteration = 67
+__________________________
+--------------------------
+iteration 5 elapsed: 101.910830 ms, src = 2514765, #iteration = 69
+__________________________
+--------------------------
+iteration 6 elapsed: 102.612019 ms, src = 2514765, #iteration = 68
+__________________________
+--------------------------
+iteration 7 elapsed: 94.394207 ms, src = 2514765, #iteration = 60
+__________________________
+--------------------------
+iteration 8 elapsed: 98.023891 ms, src = 2514765, #iteration = 68
+__________________________
+--------------------------
+iteration 9 elapsed: 100.330830 ms, src = 2514765, #iteration = 68
+
+First 40 labels of the GPU result.
+[0:104 1:55 2:113 3:83 4:46 5:66 6:108 7:87 8:45 9:95 10:80 11:72 12:69 13:56 14:79 15:96 16:52 17:92 18:72 19:161 20:76 21:36 22:60 23:94 24:96 25:42 26:60 27:60 28:68 29:71 30:60 31:56 32:215 33:59 34:82 35:132 36:43 37:124 38:72 39:103 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 480247808	 4529723	 26707344
+	 queue_sizing =	 1.200000 	 7.075228
+
+ [SSSP] finished.
+ avg. elapsed: 101.0171 ms
+ iterations: 68
+ min. elapsed: 94.3942 ms
+ max. elapsed: 107.4140 ms
+ rate: 326.9099 MiEdges/s
+ src: 2514765
+ nodes_visited: 3764117
+ edges_visited: 33023480
+ nodes queued: 22682229
+ edges queued: 206990495
+ nodes redundance: 502.59%
+ edges redundance: 526.80%
+ load time: 11609.0300 ms
+ preprocess time: 130.6341 ms
+ postprocess time: 34.6200 ms
+ total time: 12833.9381 ms
+

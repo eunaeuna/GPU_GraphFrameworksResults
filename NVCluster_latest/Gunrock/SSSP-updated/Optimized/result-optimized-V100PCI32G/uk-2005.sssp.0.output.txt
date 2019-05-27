@@ -1,0 +1,96 @@
+Loading Matrix-market coordinate-formatted graph ...
+Reading from ../../dataset/large/uk-2005/uk-2005.mtx:
+  Parsing MARKET COO format (39459925 nodes, 1872728564 directed edges)... Done parsing (306s).
+  Converting 39459925 vertices, 1872728564 directed edges (unordered tuples) to CSR format...
+Done converting (45s).
+
+Degree Histogram (39459925 vertices, 1566054250 edges):
+    Degree   0: 5462 (0.01%)
+    Degree 2^0: 3983897 (10.10%)
+    Degree 2^1: 4287466 (10.87%)
+    Degree 2^2: 4351141 (11.03%)
+    Degree 2^3: 7222466 (18.30%)
+    Degree 2^4: 8067255 (20.44%)
+    Degree 2^5: 7156175 (18.14%)
+    Degree 2^6: 2236189 (5.67%)
+    Degree 2^7: 1145314 (2.90%)
+    Degree 2^8: 922093 (2.34%)
+    Degree 2^9: 64642 (0.16%)
+    Degree 2^10: 9158 (0.02%)
+    Degree 2^11: 4846 (0.01%)
+    Degree 2^12: 2189 (0.01%)
+    Degree 2^13: 1041 (0.00%)
+    Degree 2^14: 237 (0.00%)
+    Degree 2^15: 105 (0.00%)
+    Degree 2^16: 93 (0.00%)
+    Degree 2^17: 123 (0.00%)
+    Degree 2^18: 0 (0.00%)
+    Degree 2^19: 0 (0.00%)
+    Degree 2^20: 33 (0.00%)
+
+Using highest degree (1776858), vertex: 34054380
+Source vertex: 34054380
+Using 1 GPU(s): [ 0 ].
+Using traversal mode LB
+__________________________
+0	 1	 0	 queue3 	 oversize :	 47351912 ->	 163740602
+0	 2	 0	 queue3 	 oversize :	 163740602 ->	 168293429
+0	 4	 0	 queue3 	 oversize :	 168293429 ->	 203203364
+0	 5	 0	 queue3 	 oversize :	 203203364 ->	 720783410
+0	 6	 0	 queue3 	 oversize :	 720783410 ->	 1117542772
+0	 7	 0	 queue3 	 oversize :	 1117542772 ->	 1134887412
+--------------------------
+iteration 0 elapsed: 471.307039 ms, src = 34054380, #iteration = 89
+__________________________
+--------------------------
+iteration 1 elapsed: 430.284977 ms, src = 34054380, #iteration = 84
+__________________________
+--------------------------
+iteration 2 elapsed: 446.281910 ms, src = 34054380, #iteration = 86
+__________________________
+0	 6	 0	 queue3 	 oversize :	 1134887412 ->	 1155937711
+--------------------------
+iteration 3 elapsed: 486.858845 ms, src = 34054380, #iteration = 88
+__________________________
+--------------------------
+iteration 4 elapsed: 436.518908 ms, src = 34054380, #iteration = 82
+__________________________
+--------------------------
+iteration 5 elapsed: 455.121994 ms, src = 34054380, #iteration = 87
+__________________________
+--------------------------
+iteration 6 elapsed: 441.658974 ms, src = 34054380, #iteration = 86
+__________________________
+--------------------------
+iteration 7 elapsed: 430.275917 ms, src = 34054380, #iteration = 87
+__________________________
+--------------------------
+iteration 8 elapsed: 450.045109 ms, src = 34054380, #iteration = 86
+__________________________
+0	 7	 0	 queue3 	 oversize :	 1155937711 ->	 1156934146
+--------------------------
+iteration 9 elapsed: 482.034206 ms, src = 34054380, #iteration = 90
+
+First 40 labels of the GPU result.
+[0:33 1:39 2:33 3:42 4:35 5:41 6:33 7:38 8:37 9:30 10:38 11:38 12:41 13:27 14:31 15:38 16:27 17:34 18:32 19:41 20:39 21:31 22:31 23:33 24:36 25:49 26:38 27:35 28:39 29:29 30:34 31:20 32:10 33:29 34:40 35:25 36:10 37:16 38:13 39:33 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 18150850560	 47351912	 1156934146
+	 queue_sizing =	 1.200000 	 29.319218
+
+ [SSSP] finished.
+ avg. elapsed: 453.0388 ms
+ iterations: 90
+ min. elapsed: 430.2759 ms
+ max. elapsed: 486.8588 ms
+ rate: 3449.7703 MiEdges/s
+ src: 34054380
+ nodes_visited: 39252879
+ edges_visited: 1562879784
+ nodes queued: 209794920
+ nodes redundance: 434.47%
+ load time: 413815.3930 ms
+ preprocess time: 5085.8240 ms
+ postprocess time: 241.0691 ms
+ total time: 423744.8180 ms
+

@@ -1,0 +1,62 @@
+Loading Matrix-market coordinate-formatted graph ...
+Reading from /home/zronaghi/GrAPL/gunrock-psg/dataset/large/cit-Patents/cit-Patents.mtx:
+  Parsing MARKET COO format (3774768 nodes, 33037896 directed edges)... Done parsing (5s).
+  Converting 3774768 vertices, 33037896 directed edges (unordered tuples) to CSR format...
+Done converting (1s).
+
+Degree Histogram (3774768 vertices, 33037894 edges):
+    Degree   0: 0 (0.00%)
+    Degree 2^0: 667336 (17.68%)
+    Degree 2^1: 683661 (18.11%)
+    Degree 2^2: 861431 (22.82%)
+    Degree 2^3: 968664 (25.66%)
+    Degree 2^4: 480472 (12.73%)
+    Degree 2^5: 98233 (2.60%)
+    Degree 2^6: 13292 (0.35%)
+    Degree 2^7: 1507 (0.04%)
+    Degree 2^8: 144 (0.00%)
+    Degree 2^9: 28 (0.00%)
+
+Using highest degree (793), vertex: 2514765
+Source vertex: 2514765
+Using 1 GPU: [ 0 ].
+Using traversal mode LB
+__________________________
+0	 4	 0	 queue3 	 oversize :	 4529723 ->	 5130860
+0	 5	 0	 queue3 	 oversize :	 5130860 ->	 16981272
+0	 6	 0	 queue3 	 oversize :	 16981272 ->	 26879413
+--------------------------
+iteration 0 elapsed: 86.534977 ms, src = 2514765, #iteration = 74
+Computing reference value ...
+CPU SSSP finished in 24237.101562 msec.
+
+
+First 40 labels of the GPU result.
+[0:48 1:89 2:78 3:26 4:41 5:31 6:73 7:91 8:78 9:65 10:88 11:88 12:80 13:67 14:103 15:76 16:41 17:106 18:76 19:117 20:83 21:54 22:86 23:53 24:76 25:59 26:50 27:46 28:62 29:47 30:83 31:68 32:131 33:69 34:49 35:97 36:83 37:101 38:68 39:106 ]
+Label Validity: 
+CORRECT
+First 40 labels of the reference CPU result.
+[0:48 1:89 2:78 3:26 4:41 5:31 6:73 7:91 8:78 9:65 10:88 11:88 12:80 13:67 14:103 15:76 16:41 17:106 18:76 19:117 20:83 21:54 22:86 23:53 24:76 25:59 26:50 27:46 28:62 29:47 30:83 31:68 32:131 33:69 34:49 35:97 36:83 37:101 38:68 39:106 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 482344960	 4529723	 26879413
+	 queue_sizing =	 1.200000 	 7.120812
+
+ [SSSP] finished.
+ avg. elapsed: 86.5350 ms
+ iterations: 74
+ min. elapsed: 86.5350 ms
+ max. elapsed: 86.5350 ms
+ rate: 381.6201 MiEdges/s
+ src: 2514765
+ nodes_visited: 3764117
+ edges_visited: 33023480
+ nodes queued: 23339521
+ edges queued: 213237291
+ nodes redundance: 520.05%
+ edges redundance: 545.71%
+ load time: 12110.4109 ms
+ preprocess time: 132.5390 ms
+ postprocess time: 47.8349 ms
+ total time: 63060.2870 ms
+

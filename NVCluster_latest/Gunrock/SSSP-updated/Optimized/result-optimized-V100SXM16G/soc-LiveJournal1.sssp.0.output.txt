@@ -1,0 +1,90 @@
+Loading Matrix-market coordinate-formatted graph ...
+Reading from ../../dataset/large/soc-LiveJournal1/soc-LiveJournal1.mtx:
+  Parsing MARKET COO format (4847571 nodes, 137987546 directed edges)... Done parsing (21s).
+  Converting 4847571 vertices, 137987546 directed edges (unordered tuples) to CSR format...
+Done converting (3s).
+
+Degree Histogram (4847571 vertices, 85702474 edges):
+    Degree   0: 962 (0.02%)
+    Degree 2^0: 1057993 (21.83%)
+    Degree 2^1: 919014 (18.96%)
+    Degree 2^2: 833607 (17.20%)
+    Degree 2^3: 742607 (15.32%)
+    Degree 2^4: 616847 (12.72%)
+    Degree 2^5: 404231 (8.34%)
+    Degree 2^6: 184810 (3.81%)
+    Degree 2^7: 62310 (1.29%)
+    Degree 2^8: 19429 (0.40%)
+    Degree 2^9: 4855 (0.10%)
+    Degree 2^10: 704 (0.01%)
+    Degree 2^11: 161 (0.00%)
+    Degree 2^12: 29 (0.00%)
+    Degree 2^13: 11 (0.00%)
+    Degree 2^14: 1 (0.00%)
+
+Using highest degree (20333), vertex: 10009
+Source vertex: 10009
+Using 1 GPU(s): [ 0 ].
+Using traversal mode LB
+__________________________
+0	 2	 0	 queue3 	 oversize :	 5817087 ->	 20362808
+0	 3	 0	 queue3 	 oversize :	 20362808 ->	 45907987
+0	 4	 0	 queue3 	 oversize :	 45907987 ->	 69043196
+--------------------------
+iteration 0 elapsed: 71.899891 ms, src = 10009, #iteration = 47
+__________________________
+0	 4	 0	 queue3 	 oversize :	 69043196 ->	 69615314
+--------------------------
+iteration 1 elapsed: 69.199085 ms, src = 10009, #iteration = 44
+__________________________
+--------------------------
+iteration 2 elapsed: 65.464973 ms, src = 10009, #iteration = 47
+__________________________
+0	 4	 0	 queue3 	 oversize :	 69615314 ->	 69852218
+--------------------------
+iteration 3 elapsed: 68.419933 ms, src = 10009, #iteration = 43
+__________________________
+--------------------------
+iteration 4 elapsed: 66.525936 ms, src = 10009, #iteration = 44
+__________________________
+--------------------------
+iteration 5 elapsed: 66.421032 ms, src = 10009, #iteration = 44
+__________________________
+--------------------------
+iteration 6 elapsed: 65.144062 ms, src = 10009, #iteration = 46
+__________________________
+--------------------------
+iteration 7 elapsed: 65.234900 ms, src = 10009, #iteration = 45
+__________________________
+0	 4	 0	 queue3 	 oversize :	 69852218 ->	 70232340
+--------------------------
+iteration 8 elapsed: 68.523169 ms, src = 10009, #iteration = 45
+__________________________
+--------------------------
+iteration 9 elapsed: 66.605091 ms, src = 10009, #iteration = 47
+
+First 40 labels of the GPU result.
+[0:4 1:0 2:1 3:0 4:0 5:2 6:0 7:6 8:3 9:1 10:0 11:1 12:0 13:0 14:1 15:8 16:3 17:2 18:5 19:0 20:1 21:2 22:3 23:1 24:2 25:9 26:0 27:3 28:0 29:0 30:6 31:1 32:1 33:4 34:0 35:18 36:3 37:5 38:1 39:2 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 1101004800	 5817087	 70232340
+	 queue_sizing =	 1.200000 	 14.488151
+
+ [SSSP] finished.
+ avg. elapsed: 67.3438 ms
+ iterations: 47
+ min. elapsed: 65.1441 ms
+ max. elapsed: 71.8999 ms
+ rate: 1272.4460 MiEdges/s
+ src: 10009
+ nodes_visited: 4843953
+ edges_visited: 85691368
+ nodes queued: 17410860
+ edges queued: 320011183
+ nodes redundance: 259.43%
+ edges redundance: 273.45%
+ load time: 31763.0689 ms
+ preprocess time: 268.3258 ms
+ postprocess time: 32.3210 ms
+ total time: 32754.8990 ms
+

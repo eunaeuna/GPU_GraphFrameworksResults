@@ -1,0 +1,56 @@
+Created directories to store the results...
+[Gunrock] BFS started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] scanned_edges[] cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/bfs/test_bfs.cu, 458 @ gpu 0] BFS Problem Reset failed (CUDA error 2: out of memory)
+[Gunrock] BFS --undirected started...
+cit-Patents
+uk2002
+uk2005
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] keys cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/bfs/test_bfs.cu, 481 @ gpu 0] BFS Enact failed (CUDA error 2: out of memory)
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] row_indices cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/bfs/test_bfs.cu, 382 @ gpu 0] BFS Problem Init failed (CUDA error 2: out of memory)
+[Gunrock] SSSP started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Gunrock] SSSP --src=largestdegree started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Gunrock] PageRank started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Gunrock] PageRank --undirected started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Gunrock] Done!

@@ -1,0 +1,40 @@
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(79) [ [96mapply[39m ] : cudaMemcpy(ToHost) -> invalid argument(11)
+
+kron_g500-logn21
+twitter
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(87) [ [96mapply[39m ] :  -> invalid configuration argument(9)
+
+cit-Patents
+uk2002
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(73) [ [96mapply[39m ] :  -> an illegal memory access was encountered(77)
+
+uk2005
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(73) [ [96mapply[39m ] :  -> an illegal memory access was encountered(77)
+
+soc_twitter-2010
+soc_LiveJournal1
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(87) [ [96mapply[39m ] :  -> an illegal memory access was encountered(77)
+
+kron_g500-logn21
+twitter
+[31m
+HOST error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../xlib/include/Host/impl/Numeric.i.hpp[0m(84) [ [96mcheck_overflow[39m ]
+
+value overflow
+

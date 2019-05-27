@@ -1,0 +1,67 @@
+Loading Matrix-market coordinate-formatted graph ...
+Reading from /home/zronaghi/GrAPL/gunrock-psg/dataset/large/soc-LiveJournal1/soc-LiveJournal1.mtx:
+  Parsing MARKET COO format (4847571 nodes, 137987546 directed edges)... Done parsing (22s).
+  Converting 4847571 vertices, 137987546 directed edges (unordered tuples) to CSR format...
+Done converting (3s).
+
+Degree Histogram (4847571 vertices, 85702474 edges):
+    Degree   0: 962 (0.02%)
+    Degree 2^0: 1057993 (21.83%)
+    Degree 2^1: 919014 (18.96%)
+    Degree 2^2: 833607 (17.20%)
+    Degree 2^3: 742607 (15.32%)
+    Degree 2^4: 616847 (12.72%)
+    Degree 2^5: 404231 (8.34%)
+    Degree 2^6: 184810 (3.81%)
+    Degree 2^7: 62310 (1.29%)
+    Degree 2^8: 19429 (0.40%)
+    Degree 2^9: 4855 (0.10%)
+    Degree 2^10: 704 (0.01%)
+    Degree 2^11: 161 (0.00%)
+    Degree 2^12: 29 (0.00%)
+    Degree 2^13: 11 (0.00%)
+    Degree 2^14: 1 (0.00%)
+
+Using highest degree (20333), vertex: 10009
+Source vertex: 10009
+Using 1 GPU: [ 0 ].
+Using traversal mode LB
+__________________________
+0	 2	 0	 queue3 	 oversize :	 5817087 ->	 20435013
+0	 3	 0	 queue3 	 oversize :	 20435013 ->	 45903881
+0	 4	 0	 queue3 	 oversize :	 45903881 ->	 68836373
+--------------------------
+iteration 0 elapsed: 74.734926 ms, src = 10009, #iteration = 57
+Computing reference value ...
+CPU SSSP finished in 47526.917969 msec.
+
+
+First 40 labels of the GPU result.
+[0:1 1:0 2:0 3:1 4:3 5:1 6:1 7:3 8:2 9:1 10:0 11:1 12:0 13:0 14:3 15:11 16:0 17:1 18:5 19:0 20:2 21:0 22:2 23:3 24:0 25:1 26:5 27:9 28:2 29:11 30:0 31:3 32:0 33:1 34:1 35:7 36:1 37:4 38:1 39:2 ]
+Label Validity: 
+CORRECT
+First 40 labels of the reference CPU result.
+[0:1 1:0 2:0 3:1 4:3 5:1 6:1 7:3 8:2 9:1 10:0 11:1 12:0 13:0 14:3 15:11 16:0 17:1 18:5 19:0 20:2 21:0 22:2 23:3 24:0 25:1 26:5 27:9 28:2 29:11 30:0 31:3 32:0 33:1 34:1 35:7 36:1 37:4 38:1 39:2 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 1096810496	 5817087	 68836373
+	 queue_sizing =	 1.200000 	 14.200178
+
+ [SSSP] finished.
+ avg. elapsed: 74.7349 ms
+ iterations: 57
+ min. elapsed: 74.7349 ms
+ max. elapsed: 74.7349 ms
+ rate: 1146.6040 MiEdges/s
+ src: 10009
+ nodes_visited: 4843953
+ edges_visited: 85691368
+ nodes queued: 17141020
+ edges queued: 317749927
+ nodes redundance: 253.86%
+ edges redundance: 270.81%
+ load time: 32580.7509 ms
+ preprocess time: 258.0540 ms
+ postprocess time: 75.7530 ms
+ total time: 144013.9310 ms
+

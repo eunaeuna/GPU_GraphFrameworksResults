@@ -1,0 +1,49 @@
+Number of devices: 4
+
+Graph File: soc-twitter-2010       Size: 4,977 MB    format: (Market)
+
+@File    V: 21,297,772    E: 530,051,618   Structure: Undirected   avg. deg: 24.8
+     0%     1%     2%     3%     4%     5%     6%     7%     8%     9%    10%    11%    12%    13%    14%    15%    16%    17%    18%    19%    20%    21%    22%    23%    24%    25%    26%    27%    28%    29%    30%    31%    32%    33%    34%    35%    36%    37%    38%    39%    40%    41%    42%    43%    44%    45%    46%    47%    48%    49%    50%    51%    52%    53%    54%    55%    56%    57%    58%    59%    60%    61%    62%    63%    64%    65%    66%    67%    68%    69%    70%    71%    72%    73%    74%    75%    76%    77%    78%    79%    80%    81%    82%    83%    84%    85%    86%    87%    88%    89%    90%    91%    92%    93%    94%    95%    96%    97%    98%    99%   100%
+Double self-loops removed.  E: 530,051,354
+COO to CSR...	Creating degree-directed graph ...
+Sorting...
+Complete!
+
+[39mInitilization Time:  1634.4 ms[39m
+[39mqueueing and binning:  188.18355 ms[39m
+threads_per=1, size=1723440
+[39mbalanced queue processing:  3.04947 ms[39m
+threads_per=2, size=8094479
+[39mbalanced queue processing:  4.84454 ms[39m
+threads_per=4, size=10102793
+[39mbalanced queue processing:  5.86957 ms[39m
+threads_per=8, size=9996687
+[39mbalanced queue processing:  8.45312 ms[39m
+threads_per=16, size=12976120
+[39mbalanced queue processing:  18.56614 ms[39m
+threads_per=32, size=16963900
+[39mbalanced queue processing:  46.62170 ms[39m
+threads_per=64, size=24550859
+[39mbalanced queue processing:  143.22278 ms[39m
+threads_per=128, size=49680969
+[39mbalanced queue processing:  562.68286 ms[39m
+threads_per=256, size=62549478
+[39mbalanced queue processing:  1322.72949 ms[39m
+threads_per=1, size=24661727
+[39mimbalanced queue processing:  32.24371 ms[39m
+threads_per=2, size=12416446
+[39mimbalanced queue processing:  35.70483 ms[39m
+threads_per=4, size=9400623
+[39mimbalanced queue processing:  35.23277 ms[39m
+threads_per=8, size=8828931
+[39mimbalanced queue processing:  38.29658 ms[39m
+threads_per=16, size=7647261
+[39mimbalanced queue processing:  48.77005 ms[39m
+threads_per=32, size=4813068
+[39mimbalanced queue processing:  46.92480 ms[39m
+threads_per=64, size=618661
+[39mimbalanced queue processing:  6.82598 ms[39m
+threads_per=128, size=103
+[39mimbalanced queue processing:  0.02662 ms[39m
+[39mComputation time:  2564.06519 ms[39m
+Device triangles: 17295646010

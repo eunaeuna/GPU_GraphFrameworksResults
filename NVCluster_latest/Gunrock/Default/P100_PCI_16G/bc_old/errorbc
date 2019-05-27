@@ -1,0 +1,22 @@
+Created directories to store the results...
+[Gunrock] BC started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] keys cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/bc/test_bc.cu, 599 @ gpu 0] BC Problem Enact Failed (CUDA error 2: out of memory)
+[Gunrock] BC --undirected started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] keys cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/bc/test_bc.cu, 599 @ gpu 0] BC Problem Enact Failed (CUDA error 2: out of memory)
+[Gunrock] Done!

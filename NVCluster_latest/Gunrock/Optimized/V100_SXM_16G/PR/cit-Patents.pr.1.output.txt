@@ -1,0 +1,86 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (0s).
+
+Degree Histogram (3774768 vertices, 16518947 edges):
+    Degree   0: 1685423 (44.65%)
+    Degree 2^0: 123567 (3.27%)
+    Degree 2^1: 405925 (10.75%)
+    Degree 2^2: 792972 (21.01%)
+    Degree 2^3: 571734 (15.15%)
+    Degree 2^4: 159174 (4.22%)
+    Degree 2^5: 29433 (0.78%)
+    Degree 2^6: 5526 (0.15%)
+    Degree 2^7: 882 (0.02%)
+    Degree 2^8: 113 (0.00%)
+    Degree 2^9: 19 (0.00%)
+
+Using 1 GPU(s): [ 2 ].
+Using traversal mode LB
+-1	 -1	 -1	 scanned_edges 	 oversize :	 2 ->	 3774770
+__________________________
+--------------------------
+iteration 0 elapsed: 185.851097 ms
+__________________________
+--------------------------
+iteration 1 elapsed: 177.946091 ms
+__________________________
+--------------------------
+iteration 2 elapsed: 173.254967 ms
+__________________________
+--------------------------
+iteration 3 elapsed: 173.078060 ms
+__________________________
+--------------------------
+iteration 4 elapsed: 173.103809 ms
+__________________________
+--------------------------
+iteration 5 elapsed: 173.128843 ms
+__________________________
+--------------------------
+iteration 6 elapsed: 173.132181 ms
+__________________________
+--------------------------
+iteration 7 elapsed: 173.036098 ms
+__________________________
+--------------------------
+iteration 8 elapsed: 173.784018 ms
+__________________________
+--------------------------
+iteration 9 elapsed: 173.091173 ms
+Total rank : 0.2855453124
+
+Top 10 Ranked Vertices and PageRanks:
+Vertex ID: 2031237, PageRank: 2.48900469e-05
+Vertex ID: 1614229, PageRank: 2.15421169e-05
+Vertex ID: 1728524, PageRank: 1.23921400e-05
+Vertex ID: 2188664, PageRank: 1.11618656e-05
+Vertex ID: 2092308, PageRank: 1.02761969e-05
+Vertex ID: 2475029, PageRank: 1.02670310e-05
+Vertex ID: 1583158, PageRank: 9.55832820e-06
+Vertex ID: 2475036, PageRank: 9.36024207e-06
+Vertex ID: 2151880, PageRank: 8.70825806e-06
+Vertex ID: 1745984, PageRank: 8.70731492e-06
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_2	 203423744	 2	 2
+	 queue_sizing =	 0.000001 	 0.000001
+
+ [PageRank] finished.
+ avg. elapsed: 174.9406 ms
+ iterations: 14
+ min. elapsed: 173.0361 ms
+ max. elapsed: 185.8511 ms
+ rate: 94.4260 MiEdges/s
+ src: 0
+ nodes_visited: 3774768
+ edges_visited: 16518947
+ nodes queued: 49071984
+ edges queued: 231265258
+ nodes redundance: 1200.00%
+ edges redundance: 1300.00%
+ load time: 6996.9139 ms
+ preprocess time: 24.8890 ms
+ postprocess time: 22.1679 ms
+ total time: 8811.4631 ms
+

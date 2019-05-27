@@ -1,0 +1,80 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (0s).
+
+Degree Histogram (3774768 vertices, 33037894 edges):
+    Degree   0: 0 (0.00%)
+    Degree 2^0: 667336 (17.68%)
+    Degree 2^1: 683661 (18.11%)
+    Degree 2^2: 861431 (22.82%)
+    Degree 2^3: 968664 (25.66%)
+    Degree 2^4: 480472 (12.73%)
+    Degree 2^5: 98233 (2.60%)
+    Degree 2^6: 13292 (0.35%)
+    Degree 2^7: 1507 (0.04%)
+    Degree 2^8: 144 (0.00%)
+    Degree 2^9: 28 (0.00%)
+
+Using highest degree (793), vertex: 2514765
+Source vertex: 2514765
+Using 1 GPU(s): [ 0 ].
+Using traversal-mode LB_CULL
+__________________________
+--------------------------
+iteration 0 elapsed: 3.345013 ms, src = 2514765, #iteration = 17
+__________________________
+--------------------------
+iteration 1 elapsed: 3.053904 ms, src = 2514765, #iteration = 17
+__________________________
+--------------------------
+iteration 2 elapsed: 3.132820 ms, src = 2514765, #iteration = 17
+__________________________
+--------------------------
+iteration 3 elapsed: 3.055811 ms, src = 2514765, #iteration = 17
+__________________________
+--------------------------
+iteration 4 elapsed: 3.035069 ms, src = 2514765, #iteration = 17
+__________________________
+--------------------------
+iteration 5 elapsed: 3.057003 ms, src = 2514765, #iteration = 17
+__________________________
+--------------------------
+iteration 6 elapsed: 2.393007 ms, src = 2514765, #iteration = 17
+__________________________
+--------------------------
+iteration 7 elapsed: 3.046989 ms, src = 2514765, #iteration = 17
+__________________________
+--------------------------
+iteration 8 elapsed: 2.733946 ms, src = 2514765, #iteration = 17
+__________________________
+--------------------------
+iteration 9 elapsed: 3.090858 ms, src = 2514765, #iteration = 17
+Computing reference value ...
+CPU BFS finished in 717.477112 msec. cpu_search_depth: 17
+
+Label Validity: 
+CORRECT
+
+First 40 labels of the GPU result:
+[0:7 1:5 2:8 3:6 4:6 5:6 6:7 7:6 8:5 9:6 10:8 11:7 12:6 13:6 14:8 15:8 16:6 17:8 18:6 19:9 20:7 21:7 22:8 23:7 24:7 25:6 26:6 27:7 28:7 29:6 30:8 31:7 32:9 33:7 34:8 35:8 36:5 37:7 38:8 39:9 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 683671552	 24535994	 24535994
+	 queue_sizing =	 6.500001 	 6.500001
+
+ [BFS] finished.
+ avg. elapsed: 2.9944 ms
+ iterations: 17
+ min. elapsed: 2.3930 ms
+ max. elapsed: 3.3450 ms
+ rate: 11028.2588 MiEdges/s
+ src: 2514765
+ nodes_visited: 3764117
+ edges_visited: 33023480
+ nodes queued: 3073564
+ edges queued: 21687150
+ load time: 27417.6280 ms
+ preprocess time: 45.6641 ms
+ postprocess time: 34.3411 ms
+ total time: 28268.0180 ms
+

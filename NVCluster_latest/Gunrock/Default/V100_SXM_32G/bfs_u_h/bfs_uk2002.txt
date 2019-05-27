@@ -1,0 +1,62 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (2s).
+
+Degree Histogram (18520486 vertices, 523574516 edges):
+    Degree   0: 37300 (0.20%)
+    Degree 2^0: 2322187 (12.54%)
+    Degree 2^1: 2717598 (14.67%)
+    Degree 2^2: 2465118 (13.31%)
+    Degree 2^3: 3537312 (19.10%)
+    Degree 2^4: 4000856 (21.60%)
+    Degree 2^5: 2303781 (12.44%)
+    Degree 2^6: 732939 (3.96%)
+    Degree 2^7: 201555 (1.09%)
+    Degree 2^8: 94231 (0.51%)
+    Degree 2^9: 49395 (0.27%)
+    Degree 2^10: 53065 (0.29%)
+    Degree 2^11: 4058 (0.02%)
+    Degree 2^12: 735 (0.00%)
+    Degree 2^13: 257 (0.00%)
+    Degree 2^14: 88 (0.00%)
+    Degree 2^15: 7 (0.00%)
+    Degree 2^16: 3 (0.00%)
+    Degree 2^17: 1 (0.00%)
+
+Using highest degree (194955), vertex: 17159799
+Source vertex: 17159799
+Using 1 GPU: [ 0 ].
+Using traversal-mode LB
+__________________________
+0	 4	 0	 queue3 	 oversize :	 120383161 ->	 217370194
+--------------------------
+iteration 0 elapsed: 24.749994 ms, src = 17159799, #iteration = 25
+Computing reference value ...
+CPU BFS finished in 3528.314941 msec. cpu_search_depth: 25
+
+Label Validity: 
+CORRECT
+
+First 40 labels of the GPU result:
+[0:6 1:6 2:5 3:6 4:6 5:6 6:5 7:5 8:5 9:6 10:6 11:5 12:6 13:6 14:6 15:6 16:6 17:6 18:6 19:6 20:6 21:6 22:6 23:6 24:6 25:6 26:6 27:6 28:6 29:6 30:6 31:7 32:5 33:5 34:5 35:5 36:5 37:5 38:4 39:5 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 6555697152	 120383161	 217370194
+	 queue_sizing =	 6.500000 	 11.736744
+
+ [BFS] finished.
+ avg. elapsed: 24.7500 ms
+ iterations: 25
+ min. elapsed: 24.7500 ms
+ max. elapsed: 24.7500 ms
+ rate: 21135.9023 MiEdges/s
+ src: 17159799
+ nodes_visited: 18459128
+ edges_visited: 523113442
+ nodes queued: 18459128
+ edges queued: 523113442
+ load time: 30350.7261 ms
+ preprocess time: 832.6802 ms
+ postprocess time: 162.6232 ms
+ total time: 34947.5899 ms
+

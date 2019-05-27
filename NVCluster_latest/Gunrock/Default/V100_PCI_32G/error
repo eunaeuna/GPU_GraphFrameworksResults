@@ -1,0 +1,50 @@
+Created directories to store the results...
+[Gunrock] BFS started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Gunrock] BFS --undirected started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Gunrock] SSSP started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Gunrock] SSSP --src=largestdegree started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Gunrock] PageRank started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Gunrock] PageRank --undirected started...
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Gunrock] Done!

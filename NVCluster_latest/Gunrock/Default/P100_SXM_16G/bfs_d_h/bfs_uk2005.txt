@@ -1,0 +1,60 @@
+Loading Matrix-market coordinate-formatted graph ...
+Reading from /home/zronaghi/GrAPL/gunrock-psg/dataset/large/uk-2005/uk-2005.mtx:
+  Parsing MARKET COO format (39459925 nodes, 936364282 directed edges)... Done parsing (268s).
+  Converting 39459925 vertices, 936364282 directed edges (unordered tuples) to CSR format...
+Done converting (71s).
+
+Degree Histogram (39459925 vertices, 921345078 edges):
+    Degree   0: 4650964 (11.79%)
+    Degree 2^0: 2748268 (6.96%)
+    Degree 2^1: 2961606 (7.51%)
+    Degree 2^2: 4235663 (10.73%)
+    Degree 2^3: 7496313 (19.00%)
+    Degree 2^4: 7982887 (20.23%)
+    Degree 2^5: 6760814 (17.13%)
+    Degree 2^6: 1783996 (4.52%)
+    Degree 2^7: 688666 (1.75%)
+    Degree 2^8: 147724 (0.37%)
+    Degree 2^9: 2999 (0.01%)
+    Degree 2^10: 20 (0.00%)
+    Degree 2^11: 3 (0.00%)
+    Degree 2^12: 2 (0.00%)
+
+  Converting 39459925 vertices, 921345078 directed edges (unordered tuples) to CSR format...
+Done converting (33s).
+Using highest degree (5213), vertex: 21049532
+Source vertex: 21049532
+Using 1 GPU: [ 0 ].
+Using traversal-mode LB
+__________________________
+--------------------------
+iteration 0 elapsed: 0.958920 ms, src = 21049532, #iteration = 11
+Computing reference value ...
+CPU BFS finished in 0.884056 msec. cpu_search_depth: 11
+
+Label Validity: 
+CORRECT
+
+First 40 labels of the GPU result:
+[0:2147483647 1:2147483647 2:2147483647 3:2147483647 4:2147483647 5:2147483647 6:2147483647 7:2147483647 8:2147483647 9:2147483647 10:2147483647 11:2147483647 12:2147483647 13:2147483647 14:2147483647 15:2147483647 16:2147483647 17:2147483647 18:2147483647 19:2147483647 20:2147483647 21:2147483647 22:2147483647 23:2147483647 24:2147483647 25:2147483647 26:2147483647 27:2147483647 28:2147483647 29:2147483647 30:2147483647 31:2147483647 32:2147483647 33:2147483647 34:2147483647 35:2147483647 36:2147483647 37:2147483647 38:2147483647 39:2147483647 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 11574181888	 256489514	 256489514
+	 queue_sizing =	 6.500000 	 6.500000
+
+ [BFS] finished.
+ avg. elapsed: 0.9589 ms
+ iterations: 11
+ min. elapsed: 0.9589 ms
+ max. elapsed: 0.9589 ms
+ rate: 22.5420 MiEdges/s
+ src: 21049532
+ nodes_visited: 5609
+ edges_visited: 21616
+ nodes queued: 5609
+ edges queued: 21616
+ load time: 424561.0321 ms
+ preprocess time: 1635.2708 ms
+ postprocess time: 342.2790 ms
+ total time: 426670.9769 ms
+

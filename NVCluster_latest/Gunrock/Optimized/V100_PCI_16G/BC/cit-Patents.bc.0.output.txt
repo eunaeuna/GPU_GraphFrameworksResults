@@ -1,0 +1,73 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (1s).
+
+Degree Histogram (3774768 vertices, 33037894 edges):
+    Degree   0: 0 (0.00%)
+    Degree 2^0: 667336 (17.68%)
+    Degree 2^1: 683661 (18.11%)
+    Degree 2^2: 861431 (22.82%)
+    Degree 2^3: 968664 (25.66%)
+    Degree 2^4: 480472 (12.73%)
+    Degree 2^5: 98233 (2.60%)
+    Degree 2^6: 13292 (0.35%)
+    Degree 2^7: 1507 (0.04%)
+    Degree 2^8: 144 (0.00%)
+    Degree 2^9: 28 (0.00%)
+
+Using highest degree (793), vertex: 2514765
+Source vertex: 2514765
+Using 1 GPU(s): [ 0 ].
+Using traversal-mode LB_CULL
+__________________________
+--------------------------
+iteration 0 elapsed: 25.303125 ms, src = 2514765
+__________________________
+--------------------------
+iteration 1 elapsed: 24.968147 ms, src = 2514765
+__________________________
+--------------------------
+iteration 2 elapsed: 24.966002 ms, src = 2514765
+__________________________
+--------------------------
+iteration 3 elapsed: 24.961948 ms, src = 2514765
+__________________________
+--------------------------
+iteration 4 elapsed: 24.929047 ms, src = 2514765
+__________________________
+--------------------------
+iteration 5 elapsed: 24.975061 ms, src = 2514765
+__________________________
+--------------------------
+iteration 6 elapsed: 24.939060 ms, src = 2514765
+__________________________
+--------------------------
+iteration 7 elapsed: 24.877071 ms, src = 2514765
+__________________________
+--------------------------
+iteration 8 elapsed: 24.832010 ms, src = 2514765
+__________________________
+--------------------------
+iteration 9 elapsed: 24.771929 ms, src = 2514765
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 327155712	 4529723	 4529723
+	 queue_sizing =	 1.200000 	 1.200000
+
+ [BC] finished.
+ avg. elapsed: 24.9523 ms
+ iterations: 0
+ min. elapsed: 24.7719 ms
+ max. elapsed: 25.3031 ms
+ rate: 2646.9246 MiEdges/s
+ src: 2514765
+ nodes_visited: 3764117
+ edges_visited: 66046960
+ nodes queued: 7528233
+ edges queued: 33023480
+ nodes redundance: 100.00%
+ load time: 4693.4190 ms
+ preprocess time: 27.2801 ms
+ postprocess time: 33.7410 ms
+ total time: 5030.1561 ms
+

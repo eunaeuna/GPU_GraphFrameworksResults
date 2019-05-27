@@ -1,0 +1,65 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (4s).
+
+Degree Histogram (39459925 vertices, 1566054250 edges):
+    Degree   0: 5462 (0.01%)
+    Degree 2^0: 3983897 (10.10%)
+    Degree 2^1: 4287466 (10.87%)
+    Degree 2^2: 4351141 (11.03%)
+    Degree 2^3: 7222466 (18.30%)
+    Degree 2^4: 8067255 (20.44%)
+    Degree 2^5: 7156175 (18.14%)
+    Degree 2^6: 2236189 (5.67%)
+    Degree 2^7: 1145314 (2.90%)
+    Degree 2^8: 922093 (2.34%)
+    Degree 2^9: 64642 (0.16%)
+    Degree 2^10: 9158 (0.02%)
+    Degree 2^11: 4846 (0.01%)
+    Degree 2^12: 2189 (0.01%)
+    Degree 2^13: 1041 (0.00%)
+    Degree 2^14: 237 (0.00%)
+    Degree 2^15: 105 (0.00%)
+    Degree 2^16: 93 (0.00%)
+    Degree 2^17: 123 (0.00%)
+    Degree 2^18: 0 (0.00%)
+    Degree 2^19: 0 (0.00%)
+    Degree 2^20: 33 (0.00%)
+
+Using highest degree (1776858), vertex: 34054380
+Source vertex: 34054380
+Using 1 GPU: [ 0 ].
+Using traversal-mode LB
+__________________________
+0	 5	 0	 queue3 	 oversize :	 256489514 ->	 519758874
+--------------------------
+iteration 0 elapsed: 68.578959 ms, src = 34054380, #iteration = 20
+Computing reference value ...
+CPU BFS finished in 9164.333008 msec. cpu_search_depth: 20
+
+Label Validity: 
+CORRECT
+
+First 40 labels of the GPU result:
+[0:8 1:8 2:8 3:8 4:8 5:8 6:8 7:8 8:8 9:8 10:7 11:7 12:7 13:7 14:8 15:8 16:8 17:8 18:8 19:8 20:8 21:8 22:7 23:8 24:8 25:8 26:8 27:8 28:8 29:8 30:8 31:6 32:5 33:7 34:7 35:7 36:7 37:7 38:7 39:7 ]
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 17785946112	 256489514	 519758874
+	 queue_sizing =	 6.500000 	 13.171816
+
+ [BFS] finished.
+ avg. elapsed: 68.5790 ms
+ iterations: 20
+ min. elapsed: 68.5790 ms
+ max. elapsed: 68.5790 ms
+ rate: 22789.4941 MiEdges/s
+ src: 34054380
+ nodes_visited: 39252879
+ edges_visited: 1562879784
+ nodes queued: 39252879
+ edges queued: 1562879784
+ load time: 36298.6109 ms
+ preprocess time: 1724.4878 ms
+ postprocess time: 371.4750 ms
+ total time: 47731.3831 ms
+

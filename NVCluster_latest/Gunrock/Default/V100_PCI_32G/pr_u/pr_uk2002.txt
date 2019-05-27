@@ -1,0 +1,78 @@
+Loading Matrix-market coordinate-formatted graph ...
+  Reading directly from stored binary CSR arrays ...
+Done reading (1s).
+
+Degree Histogram (18520486 vertices, 523574516 edges):
+    Degree   0: 37300 (0.20%)
+    Degree 2^0: 2322187 (12.54%)
+    Degree 2^1: 2717598 (14.67%)
+    Degree 2^2: 2465118 (13.31%)
+    Degree 2^3: 3537312 (19.10%)
+    Degree 2^4: 4000856 (21.60%)
+    Degree 2^5: 2303781 (12.44%)
+    Degree 2^6: 732939 (3.96%)
+    Degree 2^7: 201555 (1.09%)
+    Degree 2^8: 94231 (0.51%)
+    Degree 2^9: 49395 (0.27%)
+    Degree 2^10: 53065 (0.29%)
+    Degree 2^11: 4058 (0.02%)
+    Degree 2^12: 735 (0.00%)
+    Degree 2^13: 257 (0.00%)
+    Degree 2^14: 88 (0.00%)
+    Degree 2^15: 7 (0.00%)
+    Degree 2^16: 3 (0.00%)
+    Degree 2^17: 1 (0.00%)
+
+Using 1 GPU: [ 0 ].
+Using traversal mode LB
+-1	 -1	 -1	 scanned_edges 	 oversize :	 2 ->	 18520488
+__________________________
+--------------------------
+iteration 0 elapsed: 316.878080 ms
+Total rank : 18266271.6067627370
+Computing reference value ...
+CPU PageRank finished in 3046741.000000 msec.
+
+Validity Rank: 
+INCORRECT : rank[15237349] (1.30718857e+04) != 1.32455186e+04
+number of errors : 10891874
+Reference total rank : 18483298.2978730649
+Maximum difference : rank[15237349] 1.30718857e+04 vs. 1.32455186e+04, 1.73632812e+02
+Maximum relative difference :rank[13440964] 6.67457819e+00 vs. 6.96268511e+00, 4.13787104 %
+Validity Order: 
+CORRECT
+
+Top 10 Ranked Vertices and PageRanks:
+Vertex ID: 15237349, PageRank: 1.30718857e+04
+Vertex ID: 14387462, PageRank: 4.35812744e+03
+Vertex ID: 455102, PageRank: 3.74353467e+03
+Vertex ID: 13118355, PageRank: 2.45012061e+03
+Vertex ID: 17159799, PageRank: 2.34741699e+03
+Vertex ID: 17074727, PageRank: 1.50110095e+03
+Vertex ID: 4599295, PageRank: 1.22490332e+03
+Vertex ID: 16738516, PageRank: 1.12044250e+03
+Vertex ID: 14408557, PageRank: 1.04614099e+03
+Vertex ID: 11678704, PageRank: 1.00642365e+03
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 2701131776	 2	 2
+	 queue_sizing =	 0.000000 	 0.000000
+
+ [PageRank] finished.
+ avg. elapsed: 316.8781 ms
+ iterations: 26
+ min. elapsed: 316.8781 ms
+ max. elapsed: 316.8781 ms
+ rate: 1652.2902 MiEdges/s
+ src: 0
+ nodes_visited: 18520486
+ edges_visited: 523574516
+ nodes queued: 463012150
+ edges queued: 728035528
+ nodes redundance: 2400.00%
+ edges redundance: 39.05%
+ load time: 7681.6921 ms
+ preprocess time: 387.8939 ms
+ postprocess time: 3517442.7459 ms
+ total time: 3525833.4680 ms
+

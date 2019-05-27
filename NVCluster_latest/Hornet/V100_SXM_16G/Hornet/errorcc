@@ -1,0 +1,31 @@
+Created directories to store the results...
+[Hornet] CC started...
+cit-Patents
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(87) [ [96mapply[39m ] :  -> an illegal memory access was encountered(77)
+
+uk2002
+uk2005
+[31m
+CUDA error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../primitives/LoadBalancing/BinarySearch.i.cuh[0m(87) [ [96mapply[39m ] :  -> an illegal memory access was encountered(77)
+
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[Hornet] CC --undirected started...
+cit-Patents
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[31m
+HOST error
+[39m[4m/home/zronaghi/GrAPL/hornet/hornetsnest/../xlib/include/Host/impl/Numeric.i.hpp[0m(84) [ [96mcheck_overflow[39m ]
+
+value overflow
+
+[Hornet] Done!

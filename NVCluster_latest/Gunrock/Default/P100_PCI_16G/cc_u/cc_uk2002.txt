@@ -1,0 +1,75 @@
+Loading Matrix-market coordinate-formatted graph ...
+Reading from /home/zronaghi/GrAPL/gunrock-psg/dataset/large/uk-2002/uk-2002.mtx:
+  Parsing MARKET COO format (18520486 nodes, 596227524 directed edges)... Done parsing (101s).
+  Converting 18520486 vertices, 596227524 directed edges (unordered tuples) to CSR format...
+Done converting (13s).
+
+Degree Histogram (18520486 vertices, 523574516 edges):
+    Degree   0: 37300 (0.20%)
+    Degree 2^0: 2322187 (12.54%)
+    Degree 2^1: 2717598 (14.67%)
+    Degree 2^2: 2465118 (13.31%)
+    Degree 2^3: 3537312 (19.10%)
+    Degree 2^4: 4000856 (21.60%)
+    Degree 2^5: 2303781 (12.44%)
+    Degree 2^6: 732939 (3.96%)
+    Degree 2^7: 201555 (1.09%)
+    Degree 2^8: 94231 (0.51%)
+    Degree 2^9: 49395 (0.27%)
+    Degree 2^10: 53065 (0.29%)
+    Degree 2^11: 4058 (0.02%)
+    Degree 2^12: 735 (0.00%)
+    Degree 2^13: 257 (0.00%)
+    Degree 2^14: 88 (0.00%)
+    Degree 2^15: 7 (0.00%)
+    Degree 2^16: 3 (0.00%)
+    Degree 2^17: 1 (0.00%)
+
+Using highest degree (194955), vertex: 17159799
+Source vertex: 17159799
+Using 1 GPU: [ 0 ].
+graph #nodes : 18520486 -> 18483186 
+Computing reference value ...
+CPU CC finished in 228440.265625 msec.
+
+Using traversal mode LB
+_________________________
+-------------------------
+iteration 0 elapsed: 382.631063 ms
+CORRECT. Component Count: 1059
+Label Validity: 
+CORRECT
+Top 10 largest components:
+CC ID: 0, CC Root: 0, CC Size: 18459128
+CC ID: 1, CC Root: 18477989, CC Size: 1998
+CC ID: 2, CC Root: 18459836, CC Size: 1992
+CC ID: 3, CC Root: 18473269, CC Size: 1992
+CC ID: 4, CC Root: 18475261, CC Size: 1882
+CC ID: 5, CC Root: 18462981, CC Size: 1361
+CC ID: 6, CC Root: 18480636, CC Size: 1270
+CC ID: 7, CC Root: 18470935, CC Size: 495
+CC ID: 8, CC Root: 18468257, CC Size: 467
+CC ID: 9, CC Root: 18467204, CC Size: 432
+
+	Memory Usage(B)	 #keys0,0	 #keys0,1
+GPU_0	 4961861632	 0	 0
+	 queue_sizing =	 0.000000 	 0.000000
+
+ [CC] finished.
+ avg. elapsed: 382.6311 ms
+ iterations: 2
+ min. elapsed: 382.6311 ms
+ max. elapsed: 382.6311 ms
+ rate: 1368.3534 MiEdges/s
+ src: 17159799
+ nodes_visited: 18483186
+ edges_visited: 523574516
+ nodes queued: 1552587624
+ edges queued: 1357981212
+ nodes redundance: 8300.00%
+ edges redundance: 159.37%
+ load time: 127091.2139 ms
+ preprocess time: 2373.4441 ms
+ postprocess time: 16177.6569 ms
+ total time: 759756.2089 ms
+

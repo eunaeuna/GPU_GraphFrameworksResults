@@ -1,0 +1,20 @@
+cit-Patents
+uk2002
+uk2005
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] keys cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/sssp/test_sssp.cu, 462 @ gpu 0] SSSP Problem Enact Failed (CUDA error 2: out of memory)
+cit-Patents
+uk2002
+uk2005
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] keys cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/sssp/test_sssp.cu, 462 @ gpu 0] SSSP Problem Enact Failed (CUDA error 2: out of memory)
+soc_twitter-2010
+soc_LiveJournal1
+kron_g500-logn21
+twitter
+[/home/zronaghi/GrAPL/gunrock-psg/gunrock/util/array_utils.cuh, 209 @ gpu 0] weights cudaMalloc failed (CUDA error 2: out of memory)
+[/home/zronaghi/GrAPL/gunrock-psg/tests/sssp/test_sssp.cu, 379 @ gpu 0] SSSP Problem Init failed (CUDA error 2: out of memory)

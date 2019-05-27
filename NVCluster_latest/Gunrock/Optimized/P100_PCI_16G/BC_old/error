@@ -1,0 +1,14 @@
+bc market ../../dataset/large/cit-Patents/cit-Patents.mtx --src=largestdegree --undirected --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/soc-LiveJournal1/soc-LiveJournal1.mtx --src=largestdegree --undirected --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/soc-twitter-2010/soc-twitter-2010.mtx --src=largestdegree --undirected --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/uk-2002/uk-2002.mtx --src=largestdegree --undirected --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/uk-2005/uk-2005.mtx --src=largestdegree --undirected --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/kron_g500-logn21/kron_g500-logn21.mtx --src=largestdegree --undirected --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/twitter.mtx --64bit-SizeT --src=largestdegree --undirected --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/cit-Patents/cit-Patents.mtx --src=largestdegree --directed --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/soc-LiveJournal1/soc-LiveJournal1.mtx --src=largestdegree --directed --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/soc-twitter-2010/soc-twitter-2010.mtx --src=largestdegree --directed --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/uk-2002/uk-2002.mtx --src=largestdegree --directed --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/uk-2005/uk-2005.mtx --src=largestdegree --directed --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/large/kron_g500-logn21/kron_g500-logn21.mtx --src=largestdegree --directed --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
+bc market ../../dataset/twitter.mtx --64bit-SizeT --src=largestdegree --directed --iteration-num=10 --traversal-mode=LB_CULL --in-sizing=1.1 --queue-sizing=1.2 --quick --device=0 --jsondir=./evalbc/
